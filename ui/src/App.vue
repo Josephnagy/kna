@@ -1,6 +1,7 @@
 <template>
   <div id="app"> 
     <h1> Kate &amp; Ally's Restaurant</h1>
+    <h2> Located in Forked River NJ</h2>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>

@@ -1,12 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <home-page-carousel> </home-page-carousel>
   </div>
 </template>
 
 <script>
+// @ is an alias for src 
+import HomePageCarousel from '@/components/HomePageCarousel'; 
 
 export default {
-  name: "Home"
+  name: "Home", 
+  components: {
+    HomePageCarousel
+  }
 };
 </script>

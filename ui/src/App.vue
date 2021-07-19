@@ -1,12 +1,24 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <navigation-bar> </navigation-bar>
+      
     </div>
     <router-view/>
   </div>
 </template>
+
+<script> 
+import NavigationBar from './components/NavigationBar'
+
+export default {
+  name: 'App',
+  components: { 
+    NavigationBar
+  }
+}
+
+</script>
 
 <style>
 #app {
@@ -19,6 +31,7 @@
 
 #nav {
   padding: 30px;
+  list-style: none;
 }
-
+ 
 </style>

@@ -1,8 +1,7 @@
 <template>
   <div class="home">
-    
+
     <!-- Image Carousel -->
-    <home-page-carousel> </home-page-carousel>
   </div>
 </template>
 
